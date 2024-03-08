@@ -31,7 +31,7 @@ limitations under the License.
 
 #ifdef ARDUINO
 
-#if defined(ARDUINO_ARDUINO_NANO33BLE || ARDUINO_SEEED_XIAO_NRF52840_SENSE)
+#if defined(ARDUINO_ARDUINO_NANO33BLE) || defined(ARDUINO_SEEED_XIAO_NRF52840_SENSE)
 #include <cstdint>
 
 #include "button.h"
